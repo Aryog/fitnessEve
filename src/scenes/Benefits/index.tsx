@@ -36,7 +36,7 @@ const container = {
 const Benefits = ({ setSelectedPage }: Props) => {
     return (
         <section id="benefits" className='mx-auto min-h-full w-5/6 py-20'>
-            <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Home)}>
+            <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}>
                 {/* Header */}
                 <motion.div className='md:my-5 md:w-3/5' initial="hidden" whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}
